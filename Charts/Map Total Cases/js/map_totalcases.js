@@ -2,9 +2,9 @@ const drawChart = async () => {
   const width = 1000;
   const height = 500;
   const margin = { top: 10, right: 100, bottom: 100, left: 100 };
-
-  const geojson = await d3.json("../../data/geojson.json");
-  const coviddata = await d3.json("../../data/coviddata.json");
+  
+  const geojson = await d3.json("data/geojson.json");
+  const coviddata = await d3.json("data/coviddata.json");
   const colorScale = d3.scaleLinear()
   .domain(d3.extent(coviddata, d => d.total_cases / 30))
   .range(["#f0eee5", "#c70a04"]);
@@ -22,6 +22,7 @@ const drawChart = async () => {
     .translate([width / 2, height / 1.5]);
 
   const path = d3.geoPath().projection(projection);
+
   map
     .selectAll("path")
     .data(geojson.features)
@@ -54,12 +55,14 @@ const drawChart = async () => {
           .duration(100)
           .style("opacity", 1)
           .style("display", "block");
-        const formattedTotalCases = data.total_cases.toLocaleString();
-        d3.select(".tooltip")
-          .html(
-           
-            `<div>Country: ${data.Entity}</div> <br> <div>Total Cases: ${formattedTotalCases}</div>`
-          )
+          const formattedTotaldeaths = data.total_deaths.toLocaleString();
+          const formattedTotalCases = data.total_cases.toLocaleString();
+          d3.select(".tooltip")
+            .html(
+              `<div>Country: ${data.Entity}</div>
+               <div>Total Cases: ${formattedTotalCases}</div>
+               <div>Total Deaths: ${formattedTotaldeaths}</div>`
+            )
           .style("left", e.pageX + 20 + "px")
           .style("top", e.pageY + "px");
       }
