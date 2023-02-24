@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"
-     integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
     <!--  Font  -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -28,9 +28,11 @@
     <link rel="stylesheet" href="scratch_1.css">
     <link rel="stylesheet" href="scratch_2.css">
     <link rel="stylesheet" href="static/css/custom_style.css">
+    <link rel="stylesheet" href="Charts/Map Total Cases/css/styles.css">
 
     <!--D3.js -->
-    <!-- <script src="https://d3js.org/d3.v6.js"></script> -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v4.js"></script> -->
     <!-- <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script> -->
 
 
@@ -41,10 +43,11 @@
 <div id="navigation"></div>
 <script src="static/js/top_buttons.js"></script>
 
+
 <div class="w3-main, taskPageContent">
 
     <header class="w3-container, taskTitle">
-        <h1><b>Second Part</b></h1>
+        <h1><b>First part</b></h1>
     </header>
     <br>
 
@@ -52,7 +55,7 @@
 
         <!---------------------------------------------------------------------------------------->
         <br>
-        <h2><b>World Map of Total Vaccinated Countries</b></h2>
+        <h2><b>World Map of Total Vaccinated</b></h2>
         <div class="tooltip"></div>
         <div class="container">
             <div id="map"></div>
@@ -60,12 +63,14 @@
 
         <script src="Charts/Map Vaccinated/js/map_vaccination.js"></script>
         </div>
-    
+
+
     </div>
-  
+
+
+
 
 </div>
-
 
 
 </body>
