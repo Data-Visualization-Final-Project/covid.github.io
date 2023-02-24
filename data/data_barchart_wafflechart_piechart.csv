@@ -1,4 +1,4 @@
-Country,Total Cases,Total Cases Per Million,Total Deaths,Total Deaths Per Million,Total Vaccinations,Total Vaccinations Per Million
+Country,Total_Cases,Total_Cases_Per_Million,Total_Deaths,Total_Deaths_Per_Million,Total_Vaccinations,Total_Vaccinations_Per Million
 Afghanistan,209181.0,5086.002,7896.0,191.982,13603457.0,
 Africa,12515151.0,8771.872,257668.0,180.6,769812781.0,
 Albania,334336.0,117627.936,3598.0,1265.868,,
