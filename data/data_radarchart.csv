@@ -62,8 +62,8 @@ Germany,Moderna,660799113
 Germany,Novavax,2938964
 Germany,Pfizer/BioNTech,2864982805
 Germany,Oxford/AstraZeneca,153630651
-Hong Kong,Pfizer/BioNTech,223978211
-Hong Kong,Sinovac,162794652
+Hong_Kong,Pfizer/BioNTech,223978211
+Hong_Kong,Sinovac,162794652
 Hungary,Johnson&Johnson,1030064
 Hungary,Moderna,3233329
 Hungary,Pfizer/BioNTech,28986475
@@ -126,12 +126,12 @@ Slovenia,Moderna,707514
 Slovenia,Novavax,549
 Slovenia,Pfizer/BioNTech,6742123
 Slovenia,Johnson&Johnson,271435
-South Africa,Johnson&Johnson,192549351
-South Africa,Pfizer/BioNTech,592215646
-South Korea,Johnson&Johnson,22726429
-South Korea,Moderna,241808115
-South Korea,Novavax,4816424
-South Korea,Pfizer/BioNTech,1096769049
+South_Africa,Johnson&Johnson,192549351
+South_Africa,Pfizer/BioNTech,592215646
+South_Korea,Johnson&Johnson,22726429
+South_Korea,Moderna,241808115
+South_Korea,Novavax,4816424
+South_Korea,Pfizer/BioNTech,1096769049
 Spain,Moderna,72374696
 Spain,Pfizer/BioNTech,201113075
 Spain,Johnson&Johnson,1981617
@@ -142,21 +142,21 @@ Switzerland,Johnson&Johnson,1120993
 Switzerland,Moderna,208034226
 Switzerland,Novavax,4140
 Switzerland,Pfizer/BioNTech,119393779
-United States,Johnson&Johnson,56568304
-United States,Moderna,686353816
-United States,Novavax,36315
-United States,Pfizer/BioNTech,1077820079
+United_States,Johnson&Johnson,56568304
+United_States,Moderna,686353816
+United_States,Novavax,36315
+United_States,Pfizer/BioNTech,1077820079
 Uruguay,Oxford/AstraZeneca,91196
 Uruguay,Pfizer/BioNTech,45961990
 Uruguay,Sinovac,3248196
-European Union,Covaxin,2583
-European Union,Johnson&Johnson,391896307
-European Union,Moderna,3203695006
-European Union,Novavax,5620997
-European Union,Oxford/AstraZeneca,1411001607
-European Union,Pfizer/BioNTech,13243219458
-European Union,Sanofi/GSK,0
-European Union,Sinopharm/Beijing,48662572
-European Union,Sinovac,183856
-European Union,Sputnik V,38752896
-European Union,Valneva,125
+European_Union,Covaxin,2583
+European_Union,Johnson&Johnson,391896307
+European_Union,Moderna,3203695006
+European_Union,Novavax,5620997
+European_Union,Oxford/AstraZeneca,1411001607
+European_Union,Pfizer/BioNTech,13243219458
+European_Union,Sanofi/GSK,0
+European_Union,Sinopharm/Beijing,48662572
+European_Union,Sinovac,183856
+European_Union,Sputnik V,38752896
+European_Union,Valneva,125
