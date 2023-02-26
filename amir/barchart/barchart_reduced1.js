@@ -23,19 +23,19 @@ function drawChart_a1_v1() {
     let g = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 			
-    d3.csv("../data/data_barchart_wafflechart_piechart.csv", function(data) {
+    d3.csv("bar.csv", function(data) {
  
 		data.forEach(function(d) {
-			d.Total_Cases = +d.Total_Cases;
+			d.TotalCases = +d.TotalCases;
 		  });
 
 		let other = data.slice(50, data.length);
-		let sum = d3.sum(other, function(d){ return d.Total_Cases});
+		let sum = d3.sum(other, function(d){ return d.TotalCases});
 		  
 		data = data.slice(0, 50);
 
-		xScale.domain(data.map(function(d) { return d.Country; }));
-        yScale.domain([0, d3.max(data, function(d) { return d.Total_Cases; })]);
+		xScale.domain(data.map(function(d) { return d.Name; }));
+        yScale.domain([0, d3.max(data, function(d) { return d.TotalCases; })]);
 
         g.append("g")
 			.attr("transform", "translate(0," + height + ")")
@@ -53,7 +53,7 @@ function drawChart_a1_v1() {
 			.attr("y", height+50)
 			.attr('text-anchor', 'end')
 			.attr('stroke', 'black')
-			.text("Countries")
+			.text("Name")
 
         g.append("g")
 			.call(d3.axisLeft(yScale).tickFormat(function(d){return d;}))
@@ -71,14 +71,14 @@ function drawChart_a1_v1() {
 			.attr("class", "bar")
 			.on("mouseover", onMouseOver) // Add listener for event
 			.on("mouseout", onMouseOut)
-			.attr("x", function(d) { return xScale(d.Country); })
-			.attr("y", function(d) { return yScale(d.Total_Cases); })
+			.attr("x", function(d) { return xScale(d.Name); })
+			.attr("y", function(d) { return yScale(d.TotalCases); })
 			.attr("width", xScale.bandwidth())
 			.transition()
 			.ease(d3.easeLinear)
 			.duration(500)
 			.delay(function(d,i){ return i * 50})
-			.attr("height", function(d) { return height - yScale(d.Total_Cases); });
+			.attr("height", function(d) { return height - yScale(d.TotalCases); });
 
 	d3.select('#other')
 		.html(`
@@ -99,8 +99,8 @@ function drawChart_a1_v1() {
 			.style('left', xPos + 'px')
 			.style('top', yPos + 'px')
 			.html(`
-				<h2>${d.Country}</h2>
-				<div> Count: ${d.Total_Cases}</div>
+				<h2>${d.Name}</h2>
+				<div> TotalCases: ${d.TotalCases}</div>
 			`);
 		
 		d3.select('#tooltip').classed('hidden', false);
@@ -110,8 +110,8 @@ function drawChart_a1_v1() {
 			.transition() // I want to add animnation here
 			.duration(500)
 			.attr('width', xScale.bandwidth() + 5)
-			.attr('y', function(d){return yScale(d.Total_Cases) - 10;})
-			.attr('height', function(d){return height - yScale(d.Total_Cases) + 10;})
+			.attr('y', function(d){return yScale(d.TotalCases) - 10;})
+			.attr('height', function(d){return height - yScale(d.TotalCases) + 10;})
 
 	}
 
@@ -122,8 +122,8 @@ function drawChart_a1_v1() {
 			.transition()
 			.duration(500)
 			.attr('width', xScale.bandwidth())
-			.attr('y', function(d){return yScale(d.Total_Cases);})
-			.attr('height', function(d) {return height - yScale(d.Total_Cases)})
+			.attr('y', function(d){return yScale(d.TotalCases);})
+			.attr('height', function(d) {return height - yScale(d.TotalCases)})
 		
 		d3.select('#tooltip').classed('hidden', true);
 	}
