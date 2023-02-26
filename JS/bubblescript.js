@@ -21,11 +21,11 @@ d3.csv("data_barchart_wafflechart_piechart.csv").then(function(data) {
   });
 
   // Print the filtered data to the console
-  const randomData = d3.shuffle(filteredData).slice(0, 10);
+  const randomData = d3.shuffle(filteredData);
   randomData.sort(function(a, b) {
     return b.Total_Vaccinations - a.Total_Vaccinations;
   });
-  console.log(randomData);
+  // console.log(randomData);
   // Cast the string values to numbers
   randomData.forEach(function(d) {
     d.Total_Cases = +d.Total_Cases;
