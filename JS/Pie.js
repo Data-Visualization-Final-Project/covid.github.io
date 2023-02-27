@@ -1,7 +1,7 @@
 
 // Set the dimensions and margins of the graph
 const margin = { top: 30, right: 30, bottom: 50, left: 70 };
-const width = 800 - margin.left - margin.right;
+const width = 600 - margin.left - margin.right;
 const height = 500 - margin.top - margin.bottom;
 
 // Append the svg object to the body of the page
@@ -18,7 +18,7 @@ const svg = d3.select("#chart")
 d3.csv("data_barchart_wafflechart_piechart.csv").then(function(data) {
   // Filter the data to select rows where Total_Vaccinations is not null
   const filteredData = data.filter(function(d) {
-    return d.Total_Cases !== null && +d.Total_Cases > 5000000 ;
+    return d.Total_Cases !== null && +d.Total_Cases > 1000000 ;
   });
 
   // Print the filtered data to the console
@@ -38,7 +38,7 @@ d3.csv("data_barchart_wafflechart_piechart.csv").then(function(data) {
   });
 
   // Create the pie chart
-  var radius = Math.min(width, height) / 2;
+  var radius = Math.min(width, height) / 2.5;
   var pie = d3.pie()
               .sort(null)
               .value(function(d) { return d.Total_Cases; });
@@ -62,30 +62,36 @@ d3.csv("data_barchart_wafflechart_piechart.csv").then(function(data) {
    .attr("fill", function(d) { return color(d.data.Country); })
    .attr("stroke", "white")
    .style("stroke-width", "2px")
-   .on("mousemove", function(d) {
-    // Scale the path
-    d3.select(this).attr("transform", "scale(1.1)");
+// Add a title
+svg.append("text")
+.attr("x", (width / 2))
+.attr("y", 0 - (margin.top / 2))
+.attr("text-anchor", "middle")
+.style("font-size", "14px")
+.text("Comparing COVID-19 Total cases among 10 random countries with cases more than 1 million");
 
-    // Show the country name
-    svg.append("text")
-      .attr("class", "tooltip")
-      .attr("x", d3.event.pageX)
-      .attr("y", d3.event.pageY - 10)
-      .text(d.data.Country);
-  })
-  .on("mouseout", function(d) {
-    // Reset the path scale
-    d3.select(this).attr("transform", "scale(1)");
+// Create the legend
+var legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(" + (width - 80 ) + "," + 0 + ")");
 
-    // Hide the country name
-    svg.select(".tooltip").remove();
-  });
-   
+// Add the legend rectangles
+var legendRects = legend.selectAll("rect")
+    .data(data_ready)
+    .enter()
+    .append("rect")
+    .attr("y", function(d, i) { return i * 20; })
+    .attr("width", 10)
+    .attr("height", 10)
+    .attr("fill", function(d) { return color(d.data.Country); });
 
-  g.selectAll("text")
-   .data(data_ready)
-   .enter().append("text")
-   .attr("transform", function(d) { return "translate(" + labelArc.centroid(d) + ")"; })
-   .attr("dy", ".35em")
+// Add the legend labels
+var legendLabels = legend.selectAll("text")
+    .data(data_ready)
+    .enter()
+    .append("text")
+    .attr("x", 15)
+    .attr("y", function(d, i) { return i * 20 + 10; })
+    .text(function(d) { return d.data.Country; });
 
 });
