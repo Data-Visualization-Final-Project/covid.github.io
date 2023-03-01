@@ -1,0 +1,1382 @@
+[
+  {
+    "Country": "Afghanistan",
+    "Total_Cases": 209181,
+    "Total_Deaths": 7896,
+    "Total_Vaccinations": 13603457,
+    "code": "AF"
+  },
+  {
+    "Country": "Albania",
+    "Total_Cases": 334336,
+    "Total_Deaths": 3598,
+    "Total_Vaccinations": "",
+    "code": "AL"
+  },
+  {
+    "Country": "Algeria",
+    "Total_Cases": 271431,
+    "Total_Deaths": 6881,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Andorra",
+    "Total_Cases": 47866,
+    "Total_Deaths": 165,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Angola",
+    "Total_Cases": 105205,
+    "Total_Deaths": 1931,
+    "Total_Vaccinations": 24174309
+  },
+  {
+    "Country": "Anguilla",
+    "Total_Cases": 3904,
+    "Total_Deaths": 12,
+    "Total_Vaccinations": 24489,
+    "code": "AN"
+  },
+  {
+    "Country": "Antigua and Barbuda",
+    "Total_Cases": 9106,
+    "Total_Deaths": 146,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Argentina",
+    "Total_Cases": 10043308,
+    "Total_Deaths": 130458,
+    "Total_Vaccinations": 114548471,
+    "code": "AR"
+  },
+  {
+    "Country": "Armenia",
+    "Total_Cases": 446819,
+    "Total_Deaths": 8721,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Aruba",
+    "Total_Cases": 44026,
+    "Total_Deaths": 282,
+    "Total_Vaccinations": 174375,
+    "code": "AR"
+  },
+  {
+    "Country": "Australia",
+    "Total_Cases": 11347698,
+    "Total_Deaths": 19265,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Austria",
+    "Total_Cases": 5878713,
+    "Total_Deaths": 21848,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Azerbaijan",
+    "Total_Cases": 828426,
+    "Total_Deaths": 10108,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bahamas",
+    "Total_Cases": 37491,
+    "Total_Deaths": 833,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bahrain",
+    "Total_Cases": 705444,
+    "Total_Deaths": 1548,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bangladesh",
+    "Total_Cases": 2037773,
+    "Total_Deaths": 29445,
+    "Total_Vaccinations": 354659926,
+    "code": "BA"
+  },
+  {
+    "Country": "Barbados",
+    "Total_Cases": 106645,
+    "Total_Deaths": 575,
+    "Total_Vaccinations": 381633,
+    "code": "BA"
+  },
+  {
+    "Country": "Belarus",
+    "Total_Cases": 994037,
+    "Total_Deaths": 7118,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Belgium",
+    "Total_Cases": 4708273,
+    "Total_Deaths": 33663,
+    "Total_Vaccinations": 29620722,
+    "code": "BE"
+  },
+  {
+    "Country": "Belize",
+    "Total_Cases": 70740,
+    "Total_Deaths": 688,
+    "Total_Vaccinations": 502178,
+    "code": "BE"
+  },
+  {
+    "Country": "Benin",
+    "Total_Cases": 27990,
+    "Total_Deaths": 163,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bermuda",
+    "Total_Cases": 18799,
+    "Total_Deaths": 160,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bhutan",
+    "Total_Cases": 62615,
+    "Total_Deaths": 21,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bolivia",
+    "Total_Cases": 1192283,
+    "Total_Deaths": 22362,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bosnia and Herzegovina",
+    "Total_Cases": 401575,
+    "Total_Deaths": 16278,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Botswana",
+    "Total_Cases": 329662,
+    "Total_Deaths": 2801,
+    "Total_Vaccinations": 3171667,
+    "code": "BO"
+  },
+  {
+    "Country": "Brazil",
+    "Total_Cases": 36997328,
+    "Total_Deaths": 698382,
+    "Total_Vaccinations": 484988616,
+    "code": "BRAZIL"
+  },
+  {
+    "Country": "British Virgin Islands",
+    "Total_Cases": 7305,
+    "Total_Deaths": 64,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Brunei",
+    "Total_Cases": 277992,
+    "Total_Deaths": 225,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Bulgaria",
+    "Total_Cases": 1296450,
+    "Total_Deaths": 38208,
+    "Total_Vaccinations": 4608477,
+    "code": "BU"
+  },
+  {
+    "Country": "Burkina Faso",
+    "Total_Cases": 22056,
+    "Total_Deaths": 396,
+    "Total_Vaccinations": 5856003,
+    "code": "BUR"
+  },
+  {
+    "Country": "Burundi",
+    "Total_Cases": 53609,
+    "Total_Deaths": 38,
+    "Total_Vaccinations": 34493
+  },
+  {
+    "Country": "Cambodia",
+    "Total_Cases": 138713,
+    "Total_Deaths": 3056,
+    "Total_Vaccinations": 46003730,
+    "code": "CAM"
+  },
+  {
+    "Country": "Cameroon",
+    "Total_Cases": 124328,
+    "Total_Deaths": 1965,
+    "Total_Vaccinations": 4272224,
+    "code": "CA"
+  },
+  {
+    "Country": "Canada",
+    "Total_Cases": 4595042,
+    "Total_Deaths": 51253,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Cape Verde",
+    "Total_Cases": 63240,
+    "Total_Deaths": 413,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Cayman Islands",
+    "Total_Cases": 31472,
+    "Total_Deaths": 37,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Central African Republic",
+    "Total_Cases": 15368,
+    "Total_Deaths": 113,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Chad",
+    "Total_Cases": 7675,
+    "Total_Deaths": 194,
+    "Total_Vaccinations": 6368186,
+    "code": "CH"
+  },
+  {
+    "Country": "Chile",
+    "Total_Cases": 5154016,
+    "Total_Deaths": 64109,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "China",
+    "Total_Cases": 2023904,
+    "Total_Deaths": 87468,
+    "Total_Vaccinations": 3491077000,
+    "code": "CHINA"
+  },
+  {
+    "Country": "Colombia",
+    "Total_Cases": 6356468,
+    "Total_Deaths": 142296,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Comoros",
+    "Total_Cases": 8998,
+    "Total_Deaths": 161,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Congo",
+    "Total_Cases": 25077,
+    "Total_Deaths": 388,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Cook Islands",
+    "Total_Cases": 7020,
+    "Total_Deaths": 2,
+    "Total_Vaccinations": 40854
+  },
+  {
+    "Country": "Costa Rica",
+    "Total_Cases": 1199055,
+    "Total_Deaths": 9214,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Cote d'Ivoire",
+    "Total_Cases": 88138,
+    "Total_Deaths": 834,
+    "Total_Vaccinations": 25263932,
+    "code": "COTE"
+  },
+  {
+    "Country": "Croatia",
+    "Total_Cases": 1268666,
+    "Total_Deaths": 17950,
+    "Total_Vaccinations": 5360084,
+    "code": "CR"
+  },
+  {
+    "Country": "Cuba",
+    "Total_Cases": 1112561,
+    "Total_Deaths": 8530,
+    "Total_Vaccinations": 43614510,
+    "code": "CU"
+  },
+  {
+    "Country": "Curacao",
+    "Total_Cases": 45986,
+    "Total_Deaths": 301,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Cyprus",
+    "Total_Cases": 647031,
+    "Total_Deaths": 1297,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Czechia",
+    "Total_Cases": 4604427,
+    "Total_Deaths": 42397,
+    "Total_Vaccinations": 18615864,
+    "code": "CZ"
+  },
+  {
+    "Country": "Democratic Republic of Congo",
+    "Total_Cases": 95646,
+    "Total_Deaths": 1464,
+    "Total_Vaccinations": 12474117,
+    "code": "CO"
+  },
+  {
+    "Country": "Denmark",
+    "Total_Cases": 3402710,
+    "Total_Deaths": 8239,
+    "Total_Vaccinations": 13145167,
+    "code": "DK"
+  },
+  {
+    "Country": "Djibouti",
+    "Total_Cases": 15690,
+    "Total_Deaths": 189,
+    "Total_Vaccinations": 385621
+  },
+  {
+    "Country": "Dominica",
+    "Total_Cases": 15760,
+    "Total_Deaths": 74,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Dominican Republic",
+    "Total_Cases": 660533,
+    "Total_Deaths": 4384,
+    "Total_Vaccinations": 16229237
+  },
+  {
+    "Country": "Ecuador",
+    "Total_Cases": 1056578,
+    "Total_Deaths": 36008,
+    "Total_Vaccinations": 39485025,
+    "code": "EC"
+  },
+  {
+    "Country": "Egypt",
+    "Total_Cases": 515698,
+    "Total_Deaths": 24809,
+    "Total_Vaccinations": 104508139,
+    "code": "EG"
+  },
+  {
+    "Country": "El Salvador",
+    "Total_Cases": 201785,
+    "Total_Deaths": 4230,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "England",
+    "Total_Cases": "",
+    "Total_Deaths": "",
+    "Total_Vaccinations": 144754288,
+    "code": "ENG"
+  },
+  {
+    "Country": "Equatorial Guinea",
+    "Total_Cases": 17229,
+    "Total_Deaths": 183,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Eritrea",
+    "Total_Cases": 10189,
+    "Total_Deaths": 103,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Estonia",
+    "Total_Cases": 614852,
+    "Total_Deaths": 2934,
+    "Total_Vaccinations": 2109343
+  },
+  {
+    "Country": "Eswatini",
+    "Total_Cases": 74199,
+    "Total_Deaths": 1423,
+    "Total_Vaccinations": 830376
+  },
+  {
+    "Country": "Ethiopia",
+    "Total_Cases": 499903,
+    "Total_Deaths": 7572,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Falkland Islands",
+    "Total_Cases": 1930,
+    "Total_Deaths": "",
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Fiji",
+    "Total_Cases": 68876,
+    "Total_Deaths": 883,
+    "Total_Vaccinations": 1552809
+  },
+  {
+    "Country": "Finland",
+    "Total_Cases": 1461583,
+    "Total_Deaths": 8859,
+    "Total_Vaccinations": 13196843,
+    "code": "FIN"
+  },
+  {
+    "Country": "France",
+    "Total_Cases": 39640649,
+    "Total_Deaths": 164898,
+    "Total_Vaccinations": 154284734,
+    "code": "FR"
+  },
+  {
+    "Country": "French Polynesia",
+    "Total_Cases": 77957,
+    "Total_Deaths": 649,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Gabon",
+    "Total_Cases": 48981,
+    "Total_Deaths": 306,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Gambia",
+    "Total_Cases": 12586,
+    "Total_Deaths": 372,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Georgia",
+    "Total_Cases": 1825598,
+    "Total_Deaths": 16965,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Germany",
+    "Total_Cases": 38068912,
+    "Total_Deaths": 167604,
+    "Total_Vaccinations": 192085880,
+    "code": "GE"
+  },
+  {
+    "Country": "Ghana",
+    "Total_Cases": 171167,
+    "Total_Deaths": 1462,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Gibraltar",
+    "Total_Cases": 20420,
+    "Total_Deaths": 111,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Greece",
+    "Total_Cases": 5548487,
+    "Total_Deaths": 34779,
+    "Total_Vaccinations": 22107768,
+    "code": "GREECE"
+  },
+  {
+    "Country": "Greenland",
+    "Total_Cases": 11971,
+    "Total_Deaths": 21,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Grenada",
+    "Total_Cases": 19680,
+    "Total_Deaths": 238,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Guatemala",
+    "Total_Cases": 1234843,
+    "Total_Deaths": 20160,
+    "Total_Vaccinations": 20187207,
+    "code": "GU"
+  },
+  {
+    "Country": "Guinea",
+    "Total_Cases": 38267,
+    "Total_Deaths": 467,
+    "Total_Vaccinations": 9857575
+  },
+  {
+    "Country": "Guinea-Bissau",
+    "Total_Cases": 8953,
+    "Total_Deaths": 176,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Guyana",
+    "Total_Cases": 73062,
+    "Total_Deaths": 1298,
+    "Total_Vaccinations": 960133
+  },
+  {
+    "Country": "Haiti",
+    "Total_Cases": 34143,
+    "Total_Deaths": 860,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Honduras",
+    "Total_Cases": 471557,
+    "Total_Deaths": 11109,
+    "Total_Vaccinations": 17101012,
+    "code": "HO"
+  },
+  {
+    "Country": "Hong Kong",
+    "Total_Cases": 2876106,
+    "Total_Deaths": 13447,
+    "Total_Vaccinations": 20681138
+  },
+  {
+    "Country": "Hungary",
+    "Total_Cases": 2194969,
+    "Total_Deaths": 48745,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Iceland",
+    "Total_Cases": 208999,
+    "Total_Deaths": 211,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "India",
+    "Total_Cases": 44686676,
+    "Total_Deaths": 530763,
+    "Total_Vaccinations": 2206327329,
+    "code": "INDIA"
+  },
+  {
+    "Country": "Indonesia",
+    "Total_Cases": 6734818,
+    "Total_Deaths": 160894,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "International",
+    "Total_Cases": 721,
+    "Total_Deaths": 15,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Iran",
+    "Total_Cases": 7567421,
+    "Total_Deaths": 144824,
+    "Total_Vaccinations": 157785811
+  },
+  {
+    "Country": "Iraq",
+    "Total_Cases": 2465545,
+    "Total_Deaths": 25375,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Ireland",
+    "Total_Cases": 1703244,
+    "Total_Deaths": 8655,
+    "Total_Vaccinations": 11110555
+  },
+  {
+    "Country": "Isle of Man",
+    "Total_Cases": 38008,
+    "Total_Deaths": 116,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Israel",
+    "Total_Cases": 4795878,
+    "Total_Deaths": 12256,
+    "Total_Vaccinations": 18641701
+  },
+  {
+    "Country": "Italy",
+    "Total_Cases": 25547414,
+    "Total_Deaths": 187850,
+    "Total_Vaccinations": 143751231
+  },
+  {
+    "Country": "Jamaica",
+    "Total_Cases": 154065,
+    "Total_Deaths": 3500,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Japan",
+    "Total_Cases": 33158158,
+    "Total_Deaths": 71931,
+    "Total_Vaccinations": 381581415,
+    "code": "JAPAN"
+  },
+  {
+    "Country": "Jordan",
+    "Total_Cases": 1746997,
+    "Total_Deaths": 14122,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Kazakhstan",
+    "Total_Cases": 1497449,
+    "Total_Deaths": 19068,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Kenya",
+    "Total_Cases": 342900,
+    "Total_Deaths": 5688,
+    "Total_Vaccinations": 23359310,
+    "code": "KE"
+  },
+  {
+    "Country": "Kiribati",
+    "Total_Cases": 5013,
+    "Total_Deaths": 18,
+    "Total_Vaccinations": 219980
+  },
+  {
+    "Country": "Kosovo",
+    "Total_Cases": 272905,
+    "Total_Deaths": 3207,
+    "Total_Vaccinations": 1837446
+  },
+  {
+    "Country": "Kuwait",
+    "Total_Cases": 663456,
+    "Total_Deaths": 2570,
+    "Total_Vaccinations": 8258614
+  },
+  {
+    "Country": "Kyrgyzstan",
+    "Total_Cases": 206633,
+    "Total_Deaths": 2991,
+    "Total_Vaccinations": 3425209
+  },
+  {
+    "Country": "Laos",
+    "Total_Cases": 218014,
+    "Total_Deaths": 758,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Latvia",
+    "Total_Cases": 975884,
+    "Total_Deaths": 6258,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Lebanon",
+    "Total_Cases": 1231303,
+    "Total_Deaths": 10821,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Lesotho",
+    "Total_Cases": 34790,
+    "Total_Deaths": 723,
+    "Total_Vaccinations": 1319497,
+    "code": "LE"
+  },
+  {
+    "Country": "Liberia",
+    "Total_Cases": 8065,
+    "Total_Deaths": 294,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Libya",
+    "Total_Cases": 507171,
+    "Total_Deaths": 6437,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Liechtenstein",
+    "Total_Cases": 21387,
+    "Total_Deaths": 89,
+    "Total_Vaccinations": 74288
+  },
+  {
+    "Country": "Lithuania",
+    "Total_Cases": 1303028,
+    "Total_Deaths": 9578,
+    "Total_Vaccinations": 4544224
+  },
+  {
+    "Country": "Luxembourg",
+    "Total_Cases": 315945,
+    "Total_Deaths": 1215,
+    "Total_Vaccinations": 1374048
+  },
+  {
+    "Country": "Macao",
+    "Total_Cases": 3513,
+    "Total_Deaths": 121,
+    "Total_Vaccinations": 1797075
+  },
+  {
+    "Country": "Madagascar",
+    "Total_Cases": 67852,
+    "Total_Deaths": 1421,
+    "Total_Vaccinations": 2652348,
+    "code": "MA"
+  },
+  {
+    "Country": "Malawi",
+    "Total_Cases": 88681,
+    "Total_Deaths": 2686,
+    "Total_Vaccinations": 7159342
+  },
+  {
+    "Country": "Malaysia",
+    "Total_Cases": 5041587,
+    "Total_Deaths": 36957,
+    "Total_Vaccinations": 72569915,
+    "code": "MA"
+  },
+  {
+    "Country": "Maldives",
+    "Total_Cases": 185729,
+    "Total_Deaths": 311,
+    "Total_Vaccinations": 951511
+  },
+  {
+    "Country": "Mali",
+    "Total_Cases": 32963,
+    "Total_Deaths": 743,
+    "Total_Vaccinations": 4792566
+  },
+  {
+    "Country": "Malta",
+    "Total_Cases": 117338,
+    "Total_Deaths": 827,
+    "Total_Vaccinations": 1380226
+  },
+  {
+    "Country": "Marshall Islands",
+    "Total_Cases": 15598,
+    "Total_Deaths": 17,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Mauritania",
+    "Total_Cases": 63667,
+    "Total_Deaths": 997,
+    "Total_Vaccinations": 4066473
+  },
+  {
+    "Country": "Mauritius",
+    "Total_Cases": 295440,
+    "Total_Deaths": 1044,
+    "Total_Vaccinations": 2614136
+  },
+  {
+    "Country": "Mexico",
+    "Total_Cases": 7435066,
+    "Total_Deaths": 332885,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Micronesia (country)",
+    "Total_Cases": 23671,
+    "Total_Deaths": 60,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Moldova",
+    "Total_Cases": 603750,
+    "Total_Deaths": 11974,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Monaco",
+    "Total_Cases": 16108,
+    "Total_Deaths": 67,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Mongolia",
+    "Total_Cases": 1007896,
+    "Total_Deaths": 2136,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Montenegro",
+    "Total_Cases": 287772,
+    "Total_Deaths": 2800,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Montserrat",
+    "Total_Cases": 1403,
+    "Total_Deaths": 8,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Morocco",
+    "Total_Cases": 1272411,
+    "Total_Deaths": 16296,
+    "Total_Vaccinations": 55380717,
+    "code": "MO"
+  },
+  {
+    "Country": "Mozambique",
+    "Total_Cases": 233098,
+    "Total_Deaths": 2242,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Myanmar",
+    "Total_Cases": 633903,
+    "Total_Deaths": 19490,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Namibia",
+    "Total_Cases": 171121,
+    "Total_Deaths": 4090,
+    "Total_Vaccinations": 981339
+  },
+  {
+    "Country": "Nauru",
+    "Total_Cases": 5247,
+    "Total_Deaths": 1,
+    "Total_Vaccinations": 32157
+  },
+  {
+    "Country": "Nepal",
+    "Total_Cases": 1001137,
+    "Total_Deaths": 12020,
+    "Total_Vaccinations": 60976433,
+    "code": "NE"
+  },
+  {
+    "Country": "Netherlands",
+    "Total_Cases": 8602598,
+    "Total_Deaths": 23081,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "New Caledonia",
+    "Total_Cases": 80007,
+    "Total_Deaths": 314,
+    "Total_Vaccinations": 479745
+  },
+  {
+    "Country": "New Zealand",
+    "Total_Cases": 2208558,
+    "Total_Deaths": 2534,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Nicaragua",
+    "Total_Cases": 15627,
+    "Total_Deaths": 245,
+    "Total_Vaccinations": 12241350,
+    "code": "NI"
+  },
+  {
+    "Country": "Niger",
+    "Total_Cases": 9508,
+    "Total_Deaths": 315,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Nigeria",
+    "Total_Cases": 266463,
+    "Total_Deaths": 3155,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "North Korea",
+    "Total_Cases": 1,
+    "Total_Deaths": 6,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "North Macedonia",
+    "Total_Cases": 346733,
+    "Total_Deaths": 9653,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Northern Ireland",
+    "Total_Cases": "",
+    "Total_Deaths": "",
+    "Total_Vaccinations": 4483438,
+    "code": "IR"
+  },
+  {
+    "Country": "Norway",
+    "Total_Cases": 1478767,
+    "Total_Deaths": 5175,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Oman",
+    "Total_Cases": 399449,
+    "Total_Deaths": 4628,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Pakistan",
+    "Total_Cases": 1576736,
+    "Total_Deaths": 30641,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Palau",
+    "Total_Cases": 5988,
+    "Total_Deaths": 9,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Palestine",
+    "Total_Cases": 703228,
+    "Total_Deaths": 5708,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Panama",
+    "Total_Cases": 1030658,
+    "Total_Deaths": 8600,
+    "Total_Vaccinations": 8756680,
+    "code": "PA"
+  },
+  {
+    "Country": "Papua New Guinea",
+    "Total_Cases": 46792,
+    "Total_Deaths": 670,
+    "Total_Vaccinations": 717736
+  },
+  {
+    "Country": "Paraguay",
+    "Total_Cases": 807453,
+    "Total_Deaths": 19849,
+    "Total_Vaccinations": 9568675
+  },
+  {
+    "Country": "Peru",
+    "Total_Cases": 4484769,
+    "Total_Deaths": 219378,
+    "Total_Vaccinations": 87754399,
+    "code": "PERU"
+  },
+  {
+    "Country": "Philippines",
+    "Total_Cases": 4075757,
+    "Total_Deaths": 66051,
+    "Total_Vaccinations": 170366733,
+    "code": "PH"
+  },
+  {
+    "Country": "Poland",
+    "Total_Cases": 6406799,
+    "Total_Deaths": 118840,
+    "Total_Vaccinations": 57903994
+  },
+  {
+    "Country": "Portugal",
+    "Total_Cases": 5566708,
+    "Total_Deaths": 26117,
+    "Total_Vaccinations": 28106464,
+    "code": "PO"
+  },
+  {
+    "Country": "Qatar",
+    "Total_Cases": 493639,
+    "Total_Deaths": 686,
+    "Total_Vaccinations": 7606840,
+    "code": "QA"
+  },
+  {
+    "Country": "Romania",
+    "Total_Cases": 3335131,
+    "Total_Deaths": 67675,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Russia",
+    "Total_Cases": 21892777,
+    "Total_Deaths": 387932,
+    "Total_Vaccinations": 185641260,
+    "code": "RUSSIA"
+  },
+  {
+    "Country": "Rwanda",
+    "Total_Cases": 133170,
+    "Total_Deaths": 1468,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Saint Helena",
+    "Total_Cases": 2166,
+    "Total_Deaths": "",
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Saint Kitts and Nevis",
+    "Total_Cases": 6596,
+    "Total_Deaths": 46,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Saint Lucia",
+    "Total_Cases": 29882,
+    "Total_Deaths": 409,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Saint Pierre and Miquelon",
+    "Total_Cases": 3452,
+    "Total_Deaths": 2,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Saint Vincent and the Grenadines",
+    "Total_Cases": 9589,
+    "Total_Deaths": 123,
+    "Total_Vaccinations": 73374
+  },
+  {
+    "Country": "Samoa",
+    "Total_Cases": 16607,
+    "Total_Deaths": 29,
+    "Total_Vaccinations": 452831
+  },
+  {
+    "Country": "San Marino",
+    "Total_Cases": 23536,
+    "Total_Deaths": 122,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Sao Tome and Principe",
+    "Total_Cases": 6281,
+    "Total_Deaths": 77,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Total_Cases": 829095,
+    "Total_Deaths": 9607,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Scotland",
+    "Total_Cases": "",
+    "Total_Deaths": "",
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Senegal",
+    "Total_Cases": 88917,
+    "Total_Deaths": 1971,
+    "Total_Vaccinations": 2928086,
+    "code": "SE"
+  },
+  {
+    "Country": "Serbia",
+    "Total_Cases": 2487935,
+    "Total_Deaths": 17788,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Seychelles",
+    "Total_Cases": 50665,
+    "Total_Deaths": 172,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Sierra Leone",
+    "Total_Cases": 7760,
+    "Total_Deaths": 126,
+    "Total_Vaccinations": 6820857,
+    "code": "SI"
+  },
+  {
+    "Country": "Singapore",
+    "Total_Cases": 2222006,
+    "Total_Deaths": 1722,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Sint Maarten (Dutch part)",
+    "Total_Cases": "",
+    "Total_Deaths": "",
+    "Total_Vaccinations": 67068
+  },
+  {
+    "Country": "Slovakia",
+    "Total_Cases": 2664186,
+    "Total_Deaths": 21008,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Slovenia",
+    "Total_Cases": 1326369,
+    "Total_Deaths": 7068,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Solomon Islands",
+    "Total_Cases": 24575,
+    "Total_Deaths": 153,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Somalia",
+    "Total_Cases": 27324,
+    "Total_Deaths": 1361,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "South Africa",
+    "Total_Cases": 4061085,
+    "Total_Deaths": 102595,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "South Korea",
+    "Total_Cases": 30469702,
+    "Total_Deaths": 33909,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "South Sudan",
+    "Total_Cases": 18368,
+    "Total_Deaths": 138,
+    "Total_Vaccinations": 3062073
+  },
+  {
+    "Country": "Spain",
+    "Total_Cases": 13755956,
+    "Total_Deaths": 119186,
+    "Total_Vaccinations": 105459628,
+    "code": "SPAIN"
+  },
+  {
+    "Country": "Sri Lanka",
+    "Total_Cases": 672024,
+    "Total_Deaths": 16829,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Sudan",
+    "Total_Cases": 63787,
+    "Total_Deaths": 5011,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Suriname",
+    "Total_Cases": 82227,
+    "Total_Deaths": 1400,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Sweden",
+    "Total_Cases": 2697159,
+    "Total_Deaths": 23634,
+    "Total_Vaccinations": 25655479,
+    "code": "SW"
+  },
+  {
+    "Country": "Switzerland",
+    "Total_Cases": 4411059,
+    "Total_Deaths": 14203,
+    "Total_Vaccinations": 16926060
+  },
+  {
+    "Country": "Syria",
+    "Total_Cases": 57463,
+    "Total_Deaths": 3164,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Taiwan",
+    "Total_Cases": 9970937,
+    "Total_Deaths": 17672,
+    "Total_Vaccinations": 66971090
+  },
+  {
+    "Country": "Tajikistan",
+    "Total_Cases": 17786,
+    "Total_Deaths": 125,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Tanzania",
+    "Total_Cases": 42823,
+    "Total_Deaths": 846,
+    "Total_Vaccinations": 38911619
+  },
+  {
+    "Country": "Thailand",
+    "Total_Cases": 4727831,
+    "Total_Deaths": 33902,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Timor",
+    "Total_Cases": 23418,
+    "Total_Deaths": 138,
+    "Total_Vaccinations": 2011703
+  },
+  {
+    "Country": "Togo",
+    "Total_Cases": 39367,
+    "Total_Deaths": 290,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Tonga",
+    "Total_Cases": 16801,
+    "Total_Deaths": 13,
+    "Total_Vaccinations": 202720
+  },
+  {
+    "Country": "Trinidad and Tobago",
+    "Total_Cases": 188737,
+    "Total_Deaths": 4339,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Tunisia",
+    "Total_Cases": 1150793,
+    "Total_Deaths": 29330,
+    "Total_Vaccinations": 13243761
+  },
+  {
+    "Country": "Turkey",
+    "Total_Cases": 17042722,
+    "Total_Deaths": 101492,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Turks and Caicos Islands",
+    "Total_Cases": 6551,
+    "Total_Deaths": 38,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Tuvalu",
+    "Total_Cases": 2805,
+    "Total_Deaths": "",
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Uganda",
+    "Total_Cases": 170478,
+    "Total_Deaths": 3630,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Ukraine",
+    "Total_Cases": 5693260,
+    "Total_Deaths": 119144,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "United Arab Emirates",
+    "Total_Cases": 1051336,
+    "Total_Deaths": 2349,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "United Kingdom",
+    "Total_Cases": 24341615,
+    "Total_Deaths": 218405,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "United States",
+    "Total_Cases": 103305370,
+    "Total_Deaths": 1118719,
+    "Total_Vaccinations": 670987625,
+    "code": "US"
+  },
+  {
+    "Country": "Uruguay",
+    "Total_Cases": 1034046,
+    "Total_Deaths": 7617,
+    "Total_Vaccinations": 8936983
+  },
+  {
+    "Country": "Uzbekistan",
+    "Total_Cases": 250932,
+    "Total_Deaths": 1637,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Vanuatu",
+    "Total_Cases": 12014,
+    "Total_Deaths": 14,
+    "Total_Vaccinations": 366638
+  },
+  {
+    "Country": "Vatican",
+    "Total_Cases": 29,
+    "Total_Deaths": "",
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Venezuela",
+    "Total_Cases": 551940,
+    "Total_Deaths": 5852,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Vietnam",
+    "Total_Cases": 11526858,
+    "Total_Deaths": 43186,
+    "Total_Vaccinations": 266211063,
+    "code": "VIETNAM"
+  },
+  {
+    "Country": "Wallis and Futuna",
+    "Total_Cases": 3427,
+    "Total_Deaths": 7,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Yemen",
+    "Total_Cases": 11945,
+    "Total_Deaths": 2159,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Zambia",
+    "Total_Cases": 342831,
+    "Total_Deaths": 4055,
+    "Total_Vaccinations": ""
+  },
+  {
+    "Country": "Zimbabwe",
+    "Total_Cases": 263921,
+    "Total_Deaths": 5663,
+    "Total_Vaccinations": ""
+  }
+]
