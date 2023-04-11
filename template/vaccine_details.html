@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Covid Vaccine Detail</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .drop_down_h{
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div id="navigation"></div>
+        <script src="../../static/js/top_buttons.js"></script>
+    </div>
+    <br><br>
+    <div class="container">
+        <div>
+            <select id="select-data">
+                <option value="people_vaccinated_per_hundred">People Vaccinated per Hundred</option>
+                <option value="people_fully_vaccinated_per_hundred">People Fully Vaccinated per Hundred</option>
+                <option value="people_with_booster_per_hundred">People with Booster per Hundred</option>
+            </select>
+        </div>
+        <div>
+            <div id="histogram">
+            </div>
+            <script src="../charts/histograms.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
