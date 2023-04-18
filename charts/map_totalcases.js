@@ -4,8 +4,8 @@ const drawChart = async () => {
   const margin = { top: 15, right: 100, bottom: 60, left: 100 };
 
   const geojson = await d3.json("data/geojson.json");
-  const coviddata = await d3.json("../data/coviddata.json");
-  const countrytocontinent = await d3.json("../data/countrytocontinent.json");
+  const coviddata = await d3.json("data/coviddata.json");
+  const countrytocontinent = await d3.json("data/countrytocontinent.json");
   const colorScale = d3.scaleLinear()
     .domain(d3.extent(coviddata, d => d.total_cases / 30))
     .range(["#f0eee5", "#c70a04"]);
