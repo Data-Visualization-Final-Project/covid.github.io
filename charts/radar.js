@@ -1,5 +1,5 @@
 
-d3.csv("../data/data_radarchart_stackedbarchart.csv", function (data) {
+d3.csv("data/data_radarchart_stackedbarchart.csv", function (data) {
 
     const filteredData = data.filter(d => d.Country === "Argentina");
 

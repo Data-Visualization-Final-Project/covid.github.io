@@ -5,7 +5,7 @@ var currentDataType = "people_vaccinated_per_hundred";
 function histogram(currentCountry) {
 
   // Load the data and create the initial histogram
-  d3.csv("../data/new_vaccinated_data_by_age_countries.csv").then(function (data) {
+  d3.csv("data/new_vaccinated_data_by_age_countries.csv").then(function (data) {
     createHistogram(data, currentCountry, currentDataType);
   });
 
@@ -15,7 +15,7 @@ function histogram(currentCountry) {
     currentDataType = this.value;
 
     // Reload the data and recreate the histogram
-    d3.csv("../../data/new_vaccinated_data_by_age_countries.csv").then(function (data) {
+    d3.csv("data/new_vaccinated_data_by_age_countries.csv").then(function (data) {
       createHistogram(data, currentCountry, currentDataType);
     });
   });

@@ -14,7 +14,7 @@ const svgbubble = d3.select("#bubble")
 
 // Parse the data
 
-d3.csv("../data/wafflechart_pie_bubble.csv").then(function(data) {
+d3.csv("data/wafflechart_pie_bubble.csv").then(function(data) {
   // Filter the data to select rows where Total_Vaccinations is not null
   const filteredData = data.filter(function(d) {
     return d.Total_Vaccinations > 15000000;

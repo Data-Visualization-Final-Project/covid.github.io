@@ -16,7 +16,7 @@ const svg = d3.select("#pie")
 
 // Parse the data
 
-d3.csv("../data/data_barchart_wafflechart_piechart.csv").then(function(data) {
+d3.csv("data/data_barchart_wafflechart_piechart.csv").then(function(data) {
   // Filter the data to select rows where Total_Vaccinations is not null
   const filteredData = data.filter(function(d) {
     return d.Total_Cases !== null && +d.Total_Cases > 21000000 ;

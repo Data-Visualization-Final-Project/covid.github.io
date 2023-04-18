@@ -3,7 +3,7 @@
 var margin = {top: 20, right: 50, bottom: 30, left: 90},
     width = 800 - margin.left - margin.right,
     height = 348;
-d3.csv("../data/stack.csv").then(function (data) {
+d3.csv("data/stack.csv").then(function (data) {
     
        // Sort data by total vaccination
        data.sort(function(a, b) {
