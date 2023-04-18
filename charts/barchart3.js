@@ -25,7 +25,7 @@ function drawChart_a1_v3() {
 	let g = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	d3.csv("covid.github.io/../data/data_barchart_wafflechart_piechart.csv").then(function (data) {
+	d3.csv("/covid.github.io/data/data_barchart_wafflechart_piechart.csv").then(function (data) {
 		data.forEach(function (d) {
 			d.Total_Vaccinations = +d.Total_Vaccinations;
 		});
