@@ -17,7 +17,7 @@ function waffle() {
 
   const currentCountry = localStorage.getItem("CurrentCounty");
 
-  d3.csv("data/wafflechart_pie_bubble.csv",function (data) {
+  d3.csv("../../data/wafflechart_pie_bubble.csv",function (data) {
 
     let data_deepcopy = JSON.parse(JSON.stringify(data));
 
