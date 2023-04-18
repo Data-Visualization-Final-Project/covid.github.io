@@ -25,7 +25,7 @@ function drawChart_a1_v1() {
 	let g = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	d3.csv("../../data/wafflechart_pie_bubble.csv").then(function (data) {
+	d3.csv("../data/wafflechart_pie_bubble.csv").then(function (data) {
 		data.forEach(function (d) {
 			d.Total_Cases = +d.Total_Cases;
 		});

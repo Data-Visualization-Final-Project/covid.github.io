@@ -1,4 +1,4 @@
-d3.csv("../../data/data_linechart.csv", function(data) {
+d3.csv("../data/data_linechart.csv", function(data) {
   // Filter data for current country
   const current_country = localStorage.getItem("CurrentCounty");
   data = data.filter(function(d) {
