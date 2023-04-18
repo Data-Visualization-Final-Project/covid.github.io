@@ -25,8 +25,8 @@ function drawChart_a1_v2() {
 	let g = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	console.log("here");
-	d3.csv("../data/data_barchart_wafflechart_piechart.csv").then(function (data) {
+	console.log("here2");
+	d3.csv("data/data_barchart_wafflechart_piechart.csv").then(function (data) {
 		data.forEach(function (d) {
 			d.Total_Deaths = +d.Total_Deaths;
 		});
