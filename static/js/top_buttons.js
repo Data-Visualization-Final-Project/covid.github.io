@@ -1,6 +1,6 @@
 const pages = [
-    ["Home", "../../index.html"],
-    ["Visualizing ", "../../mainpage.html"],
+    ["Home", "../index.html"],
+    ["Visualizing ", "../mainpage.html"],
 
 ]
 
