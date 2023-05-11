@@ -1,6 +1,6 @@
 const pages = [
-    ["Home", "../index.html"],
-    ["Visualizing ", "../mainpage.html"],
+    ["Home", "/covid.github.io/index.html"],
+    ["Visualizing ", "/covid.github.io/mainpage.html"],
 
 ]
 
